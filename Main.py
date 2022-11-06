@@ -3,7 +3,6 @@ length_of_circular_linked_list = int(input())
 circular_linked_list = list(map(int,input().strip().split(" ")))
 # Write your code here
 actual_list = []
-
 value = 0
 while len(actual_list) < length_of_circular_linked_list and value < len(circular_linked_list):
     element = circular_linked_list[value]
